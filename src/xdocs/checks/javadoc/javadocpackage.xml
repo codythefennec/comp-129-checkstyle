@@ -115,4 +115,10 @@
       </subsection>
     </section>
   </body>
+<module name="SuppressWithNearbyCommentFilter">
+  <property name="commentFormat" value="(?i)checkstyle.suppressJavadocPackage"/>
+  <property name="checkFormat" value="javadocPackage"/>
+  <property name="influenceFormat" value="-99999"/>
+</module>
+  
 </document>
